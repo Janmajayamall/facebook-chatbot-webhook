@@ -2,6 +2,7 @@ require('dotenv').config({ path: 'variables.env' });
 
 const bodyParser = require('body-parser');
 const express = require('express');
+
 const verifyWebhook = require('./verify-facebook');
 const messageWebhook = require('./message-webhook');
 
